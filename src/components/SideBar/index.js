@@ -1,20 +1,18 @@
 import React from "react";
-import { Add as AddIcon } from "@material-ui/icons";
-import { Container, ComposeButton, HangoutsContainer } from "./styles";
+import { Container } from "./styles";
 import { Folders } from "./Folders";
 import { Meet } from "./Meet";
+import { Hangouts } from "./Hangouts";
+import { Compose } from "./Compose";
 
 export const SideBar = () => (
   <Container>
-    <ComposeButton>
-      <AddIcon />
-      <span>Redactar</span>
-    </ComposeButton>
+    <Compose />
 
     <Folders />
 
     <Meet />
 
-    <HangoutsContainer>Hangouts</HangoutsContainer>
+    <Hangouts />
   </Container>
 );

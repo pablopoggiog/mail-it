@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px 0;
 `;
 
 export const Title = styled.p`
   font-size: 13px;
-  margin: 12px 26px;
+  margin: 10px 26px;
   font-weight: 500;
 `;

@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: grid;
   grid-template-columns: 220px auto 200px;
-  ${"" /* background-color: #f5f7f1; */}
   height: 52px;
   border-bottom: 1px solid #e5e5e5;
   padding: 8px;
@@ -12,15 +11,15 @@ export const Container = styled.div`
 `;
 
 export const LogoContainer = styled.div`
-  display: grid;
-  grid-template-columns: 40px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
   align-items: center;
   padding-right: 30px;
 `;
 
 export const SearchContainer = styled.div`
-  display: grid;
-  grid-template-columns: 45px auto 45px;
+  display: flex;
   width: 100%;
   max-width: 700px;
   border: none;
@@ -31,9 +30,15 @@ export const SearchContainer = styled.div`
   border-radius: 10px;
   padding: 0 15px;
 
+  svg {
+    width: 45px;
+  }
+
   input {
     background: none;
     border: none;
+    width: 100%;
+    min-width: 50px;
 
     &:focus {
       outline: none;
@@ -42,8 +47,6 @@ export const SearchContainer = styled.div`
 `;
 
 export const IconsContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  place-items: center;
+  display: flex;
   grid-gap: 10px;
 `;

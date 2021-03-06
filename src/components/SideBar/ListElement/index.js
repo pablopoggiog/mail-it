@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
 export const ListElement = styled.div`
-  display: grid;
-  grid-template-columns: 40px auto;
+  display: flex;
+  gap: 17px;
   border-radius: 0 16px 16px 0;
   width: 100%;
-  padding: 0 12px 0 26px;
+  padding: 5px 12px 5px 26px;
   box-sizing: border-box;
   cursor: pointer;
   transition: 0.2s;
-  height: 100%;
+  max-height: 35px;
   align-items: center;
   align-self: center;
 

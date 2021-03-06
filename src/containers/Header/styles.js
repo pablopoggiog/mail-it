@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: 230px auto 200px;
+  grid-template-columns: 220px auto 200px;
   ${"" /* background-color: #f5f7f1; */}
   height: 52px;
   border-bottom: 1px solid #e5e5e5;
@@ -14,13 +14,8 @@ export const Container = styled.div`
 export const LogoContainer = styled.div`
   display: grid;
   grid-template-columns: 40px auto;
-  ${"" /* place-items: center; */}
   align-items: center;
-  ${"" /* justify-content: space-between; */}
-
-  svg {
-    color: #5f6368;
-  }
+  padding-right: 30px;
 `;
 
 export const SearchContainer = styled.div`
@@ -44,10 +39,6 @@ export const SearchContainer = styled.div`
       outline: none;
     }
   }
-
-  svg {
-    color: #5f6368;
-  }
 `;
 
 export const IconsContainer = styled.div`
@@ -55,8 +46,4 @@ export const IconsContainer = styled.div`
   grid-template-columns: repeat(4, auto);
   place-items: center;
   grid-gap: 10px;
-
-  svg {
-    color: #5f6368;
-  }
 `;

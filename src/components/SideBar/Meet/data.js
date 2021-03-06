@@ -1,6 +1,9 @@
-import { Inbox as InboxIcon, Star as StarIcon } from "@material-ui/icons";
+import {
+  Videocam as VideocamIcon,
+  Keyboard as KeyboardIcon,
+} from "@material-ui/icons";
 
 export const data = [
-  { icon: <InboxIcon />, text: "Nueva reunión" },
-  { icon: <StarIcon />, text: "Unirte a una reunión" },
+  { icon: <VideocamIcon />, text: "Nueva reunión" },
+  { icon: <KeyboardIcon />, text: "Unirte a una reunión" },
 ];

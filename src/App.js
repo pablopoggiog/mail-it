@@ -1,12 +1,19 @@
 import "./App.css";
-import { Header } from "containers";
+import styled from "styled-components";
+import { Header, Body } from "containers";
 
 function App() {
   return (
-    <div>
+    <Container>
       <Header />
-    </div>
+      <Body />
+    </Container>
   );
 }
 
 export default App;
+
+const Container = styled.div`
+  height: 100%;
+  box-sizing: border-box;
+`;

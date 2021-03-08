@@ -27,6 +27,7 @@ export const SearchContainer = styled.div`
   box-sizing: border-box;
   height: 100%;
   align-items: center;
+  justify-self: flex-start;
   border-radius: 10px;
   padding: 0 15px;
 
@@ -49,4 +50,6 @@ export const SearchContainer = styled.div`
 export const IconsContainer = styled.div`
   display: flex;
   grid-gap: 10px;
+  justify-content: space-evenly;
+  width: 100%;
 `;

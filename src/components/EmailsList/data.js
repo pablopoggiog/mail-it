@@ -1,23 +1,154 @@
 export const data = [
   {
-    userName: "LinkedIn",
+    from: "LinkedIn",
     subject: "Florencia te ha enviado un mensaje",
     time: "15:14",
+    read: false,
   },
   {
-    userName: "Prex",
+    from: "Prex",
     subject:
       "Pablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y Prex",
     time: "15:14",
+    read: false,
   },
   {
-    userName: "Netflix",
+    from: "Netflix",
     subject: "Hoy no es un día cualquiera",
     time: "15:14",
+    read: true,
   },
   {
-    userName: "Tu vieja",
-    subject: "No me viene, tenemos que hablar",
+    from: "LinkedIn",
+    subject: "Florencia te ha enviado un mensaje",
     time: "15:14",
+    read: true,
+  },
+  {
+    from: "Prex",
+    subject:
+      "Pablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y Prex",
+    time: "15:14",
+    read: true,
+  },
+  {
+    from: "Netflix",
+    subject: "Hoy no es un día cualquiera",
+    time: "15:14",
+    read: true,
+  },
+  {
+    from: "LinkedIn",
+    subject: "Florencia te ha enviado un mensaje",
+    time: "15:14",
+    read: true,
+  },
+  {
+    from: "Prex",
+    subject:
+      "Pablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y Prex",
+    time: "15:14",
+    read: true,
+  },
+  {
+    from: "Netflix",
+    subject: "Hoy no es un día cualquiera",
+    time: "15:14",
+    read: true,
+  },
+  {
+    from: "LinkedIn",
+    subject: "Florencia te ha enviado un mensaje",
+    time: "15:14",
+    read: true,
+  },
+  {
+    from: "Prex",
+    subject:
+      "Pablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y Prex",
+    time: "15:14",
+    read: true,
+  },
+  {
+    from: "Netflix",
+    subject: "Hoy no es un día cualquiera",
+    time: "15:14",
+    read: true,
+  },
+  {
+    from: "LinkedIn",
+    subject: "Florencia te ha enviado un mensaje",
+    time: "15:14",
+    read: true,
+  },
+  {
+    from: "Prex",
+    subject:
+      "Pablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y Prex",
+    time: "15:14",
+    read: true,
+  },
+  {
+    from: "Netflix",
+    subject: "Hoy no es un día cualquiera",
+    time: "15:14",
+    read: true,
+  },
+  {
+    from: "LinkedIn",
+    subject: "Florencia te ha enviado un mensaje",
+    time: "15:14",
+    read: true,
+  },
+  {
+    from: "Prex",
+    subject:
+      "Pablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y Prex",
+    time: "15:14",
+    read: true,
+  },
+  {
+    from: "Netflix",
+    subject: "Hoy no es un día cualquiera",
+    time: "15:14",
+    read: true,
+  },
+  {
+    from: "LinkedIn",
+    subject: "Florencia te ha enviado un mensaje",
+    time: "15:14",
+    read: true,
+  },
+  {
+    from: "Prex",
+    subject:
+      "Pablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y Prex",
+    time: "15:14",
+    read: true,
+  },
+  {
+    from: "Netflix",
+    subject: "Hoy no es un día cualquiera",
+    time: "15:14",
+    read: true,
+  },
+  {
+    from: "LinkedIn",
+    subject: "Florencia te ha enviado un mensaje",
+    time: "15:14",
+    read: true,
+  },
+  {
+    from: "Prex",
+    subject:
+      "Pablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y PrexPablo, recibí pagos del exterior con Payoneer y Prex",
+    time: "15:14",
+    read: true,
+  },
+  {
+    from: "Netflix",
+    subject: "Hoy no es un día cualquiera",
+    time: "15:14",
+    read: true,
   },
 ];

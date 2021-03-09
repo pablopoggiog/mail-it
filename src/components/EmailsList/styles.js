@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  padding: 20px 40px;
-
   svg {
     color: darkgrey;
   }
@@ -26,6 +24,10 @@ export const SubContainer = styled.div`
   svg {
     width: ${({ left }) => (left ? "25px" : "12px;")};
   }
+
+  button {
+    padding: 5px;
+  }
 `;
 
 export const EmailsCounter = styled.span`
@@ -34,7 +36,9 @@ export const EmailsCounter = styled.span`
   padding: 0 15px;
 `;
 
-export const EmailsListContainer = styled.div`
+export const ListContainer = styled.div`
   display: flex;
+  max-height: 85vh;
   flex-direction: column;
+  overflow: hidden scroll;
 `;

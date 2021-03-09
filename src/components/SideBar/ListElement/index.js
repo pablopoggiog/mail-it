@@ -14,7 +14,7 @@ export const ListElement = styled.div`
   align-self: center;
 
   span {
-    font-size: 0.75em;
+    font-size: 13px;
   }
 
   &:hover {

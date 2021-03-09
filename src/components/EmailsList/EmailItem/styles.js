@@ -7,6 +7,17 @@ export const Container = styled.div`
   gap: 10px;
   width: 100%;
   padding-left: 5px;
+  border-top: 0.5px solid #e5e5e5;
+  cursor: pointer;
+
+  span {
+    font-weight: ${({ read }) => (read ? 400 : 600)};
+  }
+
+  &:hover {
+    box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0,
+      0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+  }
 `;
 
 export const User = styled.span`

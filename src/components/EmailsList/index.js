@@ -11,9 +11,9 @@ import {
   TopBar,
   SubContainer,
   EmailsCounter,
-  EmailsListContainer,
+  ListContainer,
 } from "./styles";
-import { EmailsListElement } from "./components/EmailsListElement";
+import { EmailItem } from "./EmailItem";
 import { data } from "./data";
 
 export const EmailsLIst = () => (
@@ -40,15 +40,16 @@ export const EmailsLIst = () => (
       </SubContainer>
     </TopBar>
 
-    <EmailsListContainer>
+    <ListContainer>
       {data.map((email) => (
-        <EmailsListElement
+        <EmailItem
           starred={false}
-          userName={email.userName}
+          from={email.from}
           subject={email.subject}
           time={email.time}
-        ></EmailsListElement>
+          read={email.read}
+        ></EmailItem>
       ))}
-    </EmailsListContainer>
+    </ListContainer>
   </Container>
 );
